@@ -1,0 +1,28 @@
+.extension__form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+
+.extension__form input {
+  outline: none;
+  padding: 8px 7px ;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3px ;
+
+}
+
+
+
+.extension__form button:first-of-type {
+  background-color: #eee;
+  border-radius: 2px;
+  padding: 10px 15px;
+  outline: none;
+
+}
+.extension__form button:last-of-type {
+  outline: none;
+  font-size: 15px !important;
+}

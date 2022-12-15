@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "description": "firebase auth system",
+  "name": "Firebase Auth",
+
+  "background": {
+    "scripts": ["./background.js", "./firebase.js"],
+    "persistent": true
+  },
+
+  "permissions": [
+    "tabs",
+    "notifications",
+    "http://*/",
+    "https://*/",
+    "storage"
+  ]
+
+}
+
+
+
